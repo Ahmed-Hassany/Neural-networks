@@ -1,0 +1,53 @@
+
+.NNmain{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  
+  .Brain-parts{
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .NN-contents{
+    color: #222222;
+    background-color: white;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+  }
+  
+h3.sectionTitle{
+    display: inline-block;
+    padding: 0.1rem 0.8rem;
+    margin: 0.2rem;
+    color: white;
+  }
+  
+  h3.sectionTitle-0{
+    background-color: #4e7edf;
+  }
+
+  h3.sectionTitle-1{
+    background-color: #CC66FF;
+}
+
+h3.sectionTitle-2{
+    background-color: #FFA44E;
+}
+  
+  @media (min-width: 900px) {
+    .NNmain{
+    flex-direction: row;
+    padding: 50px;
+    align-items:center;
+    }
+  
+    .Brain-parts{
+      width: 60%;
+    }
+    
+  
+  }
