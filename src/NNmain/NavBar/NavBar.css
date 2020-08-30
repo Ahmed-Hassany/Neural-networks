@@ -1,0 +1,38 @@
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid white;
+    text-align: left;
+}
+
+h4.type-logo{
+    font-family: 'Caveat', cursive;
+    color: white;
+    flex-grow: 2;
+    font-size: larger;
+}
+
+.nav-bar button{
+    flex-grow: 1;
+    height: 100%;
+    margin-left: 1rem;
+    border: 1px solid white;
+    background-color:transparent;
+    color :white;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.nav-bar button:hover{
+    border: none;
+    background-color:white;
+    color :#262628;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}

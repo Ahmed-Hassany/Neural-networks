@@ -1,0 +1,23 @@
+
+  .NNBg{
+      position: absolute;
+      width: 100%;
+      opacity: 0.2;
+      top: 0;
+      overflow: hidden;
+      height: 100vh;
+  }
+
+
+
+  .cls-1 {
+    opacity: 0.3;
+  }
+
+  .cls-2 {
+    fill: none;
+  }
+
+  .cls-3 {
+    fill: #84ceda;
+  }
